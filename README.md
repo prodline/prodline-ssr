@@ -6,9 +6,14 @@ Used as a demo for the Software Product Line Engineering Advanced Elective at th
 
 ## Guide
 1. Install [cookiecutter](https://github.com/audreyr/cookiecutter).
-2. Cookiecut the service from the checked out folder.
+2. Cookiecut the service.
     ```
-    cookiecutter prodline-ssr
+    cookiecutter https://github.com/prodline/prodline-ssr.git
+    ```
+3. Install package and run the app. Make sure you are in the root folder of the generated app.
+    ```
+    npm i
+    npm run dev
     ```
 
 ## Credits
